@@ -1,0 +1,83 @@
+*{
+    margin : 0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(/img/me.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calculator{
+    background-image: url(/img/me.jpg) ;
+    /* background-color: rgb(42, 44, 24); */
+    /* background-color: rgb(50, 52, 27); */
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding : 20px;
+    border-radius: 50px;
+    height: 750px;
+    
+    /* background: transparent ; */
+    
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), -8px -8px 15px rgba(255, 255, 255,0.1);
+    /* background-color: rgb(86, 42, 128); */
+    background: transparent;
+    font-size: 30px;
+    font-weight: 900;
+    color: #7bb141;
+    cursor: pointer;
+    margin: 10px;
+    background-color: rgb(50, 52, 27);
+    
+
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    background-color: rgb(61, 64, 36);
+    border-radius: 15px;
+    border: none;
+}
+form .display input{
+    text-align:right ;
+    flex: 1;
+    font-size: 50px;
+    box-shadow:none;
+}
+form input.equal{
+    width: 145px;
+}
+
+form input.operator{
+    /* color: rgb(28, 75, 125); */
+    color:rgb(241, 113, 9);
+}
+form p{
+padding-top:40px;
+font-size: 20px;
+color:#768157;
+}
+form h5{
+    margin: 0px;
+    padding: 00px;
+    font-size: 28px;
+    color:#87965b;
+}
