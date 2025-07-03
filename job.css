@@ -1,0 +1,107 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #8295a8;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark {
+  background: #1e1e2f;
+  color: #f0f0f0;
+}
+header {
+  background: #26348B;
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav #toggle-dark {
+  margin-left: 20px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+main.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.card {
+  background: rgb(222, 197, 197);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+body.dark .card {
+  background: #2c2c3a;
+}
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  color: #000;
+}
+body.dark form input,
+body.dark form textarea {
+  background: #444;
+  color: #fff;
+  border: 1px solid #666;
+}
+form button {
+  background-color: #26348B;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #1a2766;
+}
+.job-card {
+  background: #e9ecef;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+body.dark .job-card {
+  background: #3b3b50;
+}
+.job-card h3 {
+  margin-top: 0;
+}
+.job-card button {
+  background-color: #26348B;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
